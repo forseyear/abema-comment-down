@@ -2,13 +2,14 @@
   "name": "abema-comment-down",
   "version": "1.0.0",
   "description": "",
-  "main": "downloader.js",
+  "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "MIT",
   "dependencies": {
+    "clipboardy": "^1.2.3",
     "request": "^2.83.0",
     "request-promise": "^4.2.2",
     "xml2js": "^0.4.19"
