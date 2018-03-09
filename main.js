@@ -128,7 +128,6 @@ const download = async slotId => {
   // 改行コードや namespace を他のソフトに合わせる
   const resultXml = xmlComments.join("\r\n");
   const xml = resultXml.replace(" standalone=\"yes\"", "");
-  return;
 
   fs.writeFile(`dist/${slotId}.xml`, xml, error => {
     if (error) {
